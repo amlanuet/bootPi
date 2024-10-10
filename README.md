@@ -45,11 +45,11 @@ sudo apt-get install python3-rpi.gpio
 ```
 
 ### Python Script on Raspberry Pi
-Create a Python script to listen for incoming TCP data and control the PWM signals. Save this script on your Raspberry Pi.
+Use bootServer2.py to listen for incoming TCP data and control the PWM signals. Run this script on your Raspberry Pi.
 
 ### Laptop
 Install Python and necessary libraries.
-Create a Python script to read the game controller input and send data to the Raspberry Pi. Save this script on your laptop.
+Use joystickClientBoot.py to read the game controller input and send data to the Raspberry Pi. Save this script on your laptop.
 
 ## Running the Project
 Power on all components.
