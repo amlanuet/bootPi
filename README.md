@@ -30,7 +30,8 @@ BootPi is a DIY remote control boat project that uses a Raspberry Pi to control 
 4. Each motor negative to its own battery, And the positive to the manual switches and then to the battery.
 5. Power bank to the Raspberry Pi.
 6. Makita battery to the network switch and WiFi bullet.
-7 Ensure all connections are secure and insulated.
+7. Ensure all connections are secure and insulated.
+8. UTP cable from bullet to switch, UTP cable from pi to switch 
 
 ## Software Setup
 ### Raspberry Pi
