@@ -49,7 +49,7 @@ Use bootServer2.py to listen for incoming TCP data and control the PWM signals. 
 
 ### Laptop
 Install Python and necessary libraries.
-Use joystickClientBoot.py to read the game controller input and send data to the Raspberry Pi. Save this script on your laptop.
+Use joystickClientBoot.py to read the game controller input and send data to the Raspberry Pi. Run this script on your laptop. that has the game controller plugged in
 
 ## Running the Project
 Power on all components.
@@ -61,5 +61,6 @@ Ensure all connections are secure.
 Verify the IP address of the Raspberry Pi.
 Check the battery levels.
 Ensure the Python scripts are running without errors.
-Acknowledgements
-Special thanks to the Raspberry Pi community and all contributors to open-source projects.
+
+## Acknowledgements
+Special thanks to the Raspberry Pi community and all open-source projects I drew inspiration from.
