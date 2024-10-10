@@ -24,13 +24,13 @@ BootPi is a DIY remote control boat project that uses a Raspberry Pi to control 
 
 
 ## Wiring Diagram
-Connect the DC motors to the ESCs.
-Connect the ESCs signal wire to the Raspberry Pi GPIO pins (Pin 38 and Pin 40 for PWM signals). (on the ESC 120a this is a white wire)
-Connect the batteries to their respective components:
-Each motor negative to its own battery, And the positive to the manual switches and then to the battery.
-Power bank to the Raspberry Pi.
-Makita battery to the network switch and WiFi bullet.
-Ensure all connections are secure and insulated.
+1. Connect the DC motors to the ESCs.
+2. onnect the ESCs signal wire to the Raspberry Pi GPIO pins (Pin 38 and Pin 40 for PWM signals). (on the ESC 120a this is a white wire)
+3. Connect the batteries to their respective components:
+4. Each motor negative to its own battery, And the positive to the manual switches and then to the battery.
+5. Power bank to the Raspberry Pi.
+6. Makita battery to the network switch and WiFi bullet.
+7 Ensure all connections are secure and insulated.
 
 ## Software Setup
 ### Raspberry Pi
@@ -52,15 +52,16 @@ Install Python and necessary libraries.
 Use joystickClientBoot.py to read the game controller input and send data to the Raspberry Pi. Run this script on your laptop. that has the game controller plugged in
 
 ## Running the Project
-Power on all components.
-Run the Python script on the Raspberry Pi.
-Run the Python script on the laptop.
-Use the game controller to control the boat.
-Troubleshooting
-Ensure all connections are secure.
-Verify the IP address of the Raspberry Pi.
-Check the battery levels.
-Ensure the Python scripts are running without errors.
+1. Power on all components.
+2. Run the Python script on the Raspberry Pi.
+3. Run the Python script on the laptop.
+4. Use the game controller to control the boat.
+
+## Troubleshooting
++ Ensure all connections are secure.
++ Verify the IP address of the Raspberry Pi.
++ Check the battery levels.
++ Ensure the Python scripts are running without errors.
 
 ## Acknowledgements
 Special thanks to the Raspberry Pi community and all open-source projects I drew inspiration from.
