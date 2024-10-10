@@ -36,9 +36,13 @@ Ensure all connections are secure and insulated.
 ### Raspberry Pi
 Install Raspbian OS on the Raspberry Pi.
 Install necessary Python libraries:
+
+```
 sudo apt-get update
 sudo apt-get install python3-pip
-pip3 install RPi.GPIO
+pip3 install pygame pigpio
+sudo apt-get install python3-rpi.gpio
+```
 
 ### Python Script on Raspberry Pi
 Create a Python script to listen for incoming TCP data and control the PWM signals. Save this script on your Raspberry Pi.
