@@ -23,9 +23,9 @@ BootPi is a DIY remote control boat project that uses a Raspberry Pi to control 
 + Various wires and connectors
 
 
-## Wiring Diagram
+## Wiring steps
 1. Connect the DC motors to the ESCs.
-2. onnect the ESCs signal wire to the Raspberry Pi GPIO pins (Pin 38 and Pin 40 for PWM signals). (on the ESC 120a this is a white wire)
+2. Connect the ESCs signal wire to the Raspberry Pi GPIO pins (Pin 38 and Pin 40 for PWM signals). (on the ESC 120a this is a white wire)
 3. Connect the batteries to their respective components:
 4. Each motor negative to its own battery, And the positive to the manual switches and then to the battery.
 5. Power bank to the Raspberry Pi.
