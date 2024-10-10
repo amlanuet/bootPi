@@ -13,14 +13,14 @@ Introduction
 BootPi is a DIY remote control boat project that uses a Raspberry Pi to control the speed and direction of two DC motors via ESCs. The boat is controlled remotely using a laptop connected to a WiFi network.
 
 ## Components
-1 x Raspberry Pi (any model with GPIO pins)
-2 x DC motors
-2 x ESC 120A
-4 x Batteries (2 for motors, 1 power bank for Raspberry Pi, 1 Makita battery for network switch and WiFi bullet)
-1 x Network switch
-1 x WiFi bullet
-1 x Game controller
-Various wires and connectors
++ 1 x Raspberry Pi (any model with GPIO pins)
++ 2 x DC motors
++ 2 x ESC 120A
++ 4 x Batteries (2 for motors, 1 power bank for Raspberry Pi, 1 Makita + battery for network switch and WiFi bullet)
++ 1 x Network switch
++ 1 x WiFi bullet
++ 1 x Game controller
++ Various wires and connectors
 
 
 ## Wiring Diagram
